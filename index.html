@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    Food Delivery Service
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Contact Us</a>
+</nav>
+
+<h1>Today's Specials</h1>
+
+<!-- Food Menu -->
+<section class="menu">
+    <div class="dish">
+        <img src="https://media.istockphoto.com/id/1329213718/photo/vada-pav.webp?b=1&s=170667a&w=0&k=20&c=mg_rqOSDW2-UYk6Tk33NjC6gXIcgQ9SWT1W1LsfTnYs=" alt="Vada-Pav">
+        <h3>Vada-Pav</h3>
+        <p>Vada Pav is a popular Indian street food originating from the state of Maharashtra, particularly Mumbai. Often referred to as the "Indian burger," Vada Pav consists of a spicy potato fritter (vada) sandwiched between a soft bun (pav).</p>
+        <button class="y">Price: ₹25</button>
+    </div>
+
+    <div class="dish">
+        <img src="https://b.zmtcdn.com/data/dish_photos/ab5/dd4f23fc3c44371733ee5f80de477ab5.jpg" alt="Batata-Bhaji-Pav">
+        <h3>Batata-Bhaji-Pav</h3>
+        <p>**Batata Bhaji Pav** is a popular Indian street food featuring spiced potato curry (batata bhaji) served inside a soft pav bun.</p>
+        <button class="y">Price: ₹27</button>
+    </div>
+
+    <div class="dish">
+        <img src="https://dms.mydukaan.io/original/jpeg/master/products/samosa-pav.png" alt="Samosa-Pav">
+        <h3>Samosa-Pav</h3>
+        <p>**Samosa Pav** is a delicious Indian street snack where a crispy, spiced potato-filled samosa is tucked inside a soft pav bun, often served with chutneys.</p>
+        <button class="y">Price: ₹30</button>
+    </div>
+</section>
+
+<!-- Order Form -->
+<section>
+    <h2>Place Your Order</h2>
+    <form id="orderForm">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" required>
+
+        <label for="address">Delivery Address</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+
+        <input type="submit" value="Place Order">
+    </form>
+</section>
+
+<footer>
+    &copy; 2024 Food Delivery Service. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
